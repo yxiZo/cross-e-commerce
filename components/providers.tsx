@@ -13,6 +13,7 @@ export function ThemeProvider({
   return (
     <JotaiProvider>
       <NextThemesProvider {...props}>
+        {/* <TooltipProvider delayDuration={0}>{children}</TooltipProvider> */}
         {children}
       </NextThemesProvider>
     </JotaiProvider>
